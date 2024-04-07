@@ -23,6 +23,6 @@ try:
         poly.draw(tk)
         print("%6.2f сек." % (time() - start_draw_time))
         input("Hit 'Return' to continue -> ")
-except(EOFError, KeyboardInterrupt):
+except (EOFError, KeyboardInterrupt):
     print("\nStop")
     tk.close()

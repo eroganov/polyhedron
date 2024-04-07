@@ -44,7 +44,7 @@ class TkDrawer:
         self.root.update()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
 
     import time
     from r3 import R3

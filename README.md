@@ -5,3 +5,15 @@
 с основами вычислительной геометрии.
 
 ![Шахматный король](images/king.png)
+
+## Проверка соблюдения соглашений о стиле программного кода
+
+~~~{.sh}
+find . -name '*.py' -exec pycodestyle {} \;
+~~~
+
+## Проверка покрытия тестами кода программы
+
+~~~{.sh}
+python -B -m coverage run -m unittest discover tests && coverage report -m ; rm -f .coverage
+~~~

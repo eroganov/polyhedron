@@ -1,0 +1,4 @@
+[run]
+omit =
+    common/tk_drawer.py
+    

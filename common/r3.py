@@ -43,7 +43,7 @@ class R3:
             self.x * other.y - self.y * other.x)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     x = R3(1.0, 1.0, 1.0)
     print("x", type(x), x.__dict__)
     y = x + R3(1.0, -1.0, 0.0)
